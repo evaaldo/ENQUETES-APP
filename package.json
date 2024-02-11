@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "rimraf ./build & tsc",
     "test": "jest",
     "test:staged": "jest"
   },
